@@ -8,6 +8,9 @@ on:
     branches:
       - master
 
+permissions:
+  contents: write
+
 jobs:
   update-languages:
     runs-on: ubuntu-latest
